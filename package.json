@@ -1,0 +1,27 @@
+{
+  "name": "webui-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbanisetty/webui-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbanisetty/webui-cypress/issues"
+  },
+  "homepage": "https://github.com/dbanisetty/webui-cypress#readme",
+  "dependencies": {
+    "cypress": "^12.3.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "save-dev": "^0.0.1-security"
+  },
+  "cypress-cucumber-preprocessor": {
+  "nonGlobalStepDefinitions": true
+  }
+}
